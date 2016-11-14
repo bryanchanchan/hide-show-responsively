@@ -58,4 +58,9 @@ img:nth-child(even) {
     display: inline-block;
     width: 24%
   }
+
+  img:nth-child(2){
+    display: inline-block;
+  }
+
 }
