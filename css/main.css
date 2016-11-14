@@ -16,10 +16,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
 img{
   display: inline-block;
   width: 100%;
@@ -47,7 +43,7 @@ img:nth-child(even) {
   width: 32%;
   }
 
-  img:nth-child(2) {
+  img:first-child {
     display: none;
   }
 }
@@ -59,7 +55,7 @@ img:nth-child(even) {
     width: 24%
   }
 
-  img:nth-child(2){
+  img:first-child {
     display: inline-block;
   }
 
